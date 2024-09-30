@@ -5,10 +5,10 @@ function App() {
   return (
     <div className="min-h-screen bg-gray-100">
       {/* Navigation */}
-      <nav className="bg-white shadow-lg fixed w-full z-10">
+      <nav className="bg-white shadow-lg fixed w-full z-10 top-0">
         <div className="max-w-7xl mx-auto px-4">
           <div className="flex justify-between h-16">
-            <div className="flex">
+            <div className="flex items-center">
               <h1 className="text-2xl font-bold text-blue-600">
                 Disaster Stream
               </h1>
